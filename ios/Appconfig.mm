@@ -3,10 +3,8 @@
 @implementation Appconfig
 RCT_EXPORT_MODULE()
 
-- (NSNumber *)multiply:(double)a b:(double)b {
-    NSNumber *result = @(a * b);
-
-    return result;
+- (NSDictionary *)managedConfig {
+    return [NSDictionary dictionary];
 }
 
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:

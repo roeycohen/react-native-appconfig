@@ -1,7 +1,9 @@
 import { TurboModuleRegistry, type TurboModule } from 'react-native';
+// @ts-ignore
+import type { UnsafeObject } from 'react-native/Libraries/Types/CodegenTypes';
 
 export interface Spec extends TurboModule {
-  multiply(a: number, b: number): number;
+  managedConfig(): UnsafeObject;
 }
 
 export default TurboModuleRegistry.getEnforcing<Spec>('Appconfig');

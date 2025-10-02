@@ -1,6 +1,17 @@
 # react-native-appconfig
 
-appconfig
+Simplest react-native library for accessing application configurations received from MDM.
+- Android: using RestrictionsManager
+- IOS: using react-native built-in Settings class with 'com.apple.configuration.managed'
+
+
+The initial library code was generated using `npx create-react-native-library@latest`
+
+## Note
+If you need more features such as on-change event, consider using https://github.com/mattermost/react-native-emm.
+
+I've created this library because `react-native-emm` was conflicting with other more maintained Expo libraries such as `expo-screen-capture`, and also support future Expo versions more easily.
+
 
 ## Installation
 
@@ -14,11 +25,11 @@ npm install react-native-appconfig
 
 
 ```js
-import { multiply } from 'react-native-appconfig';
+import { getManagedConfig } from 'react-native-appconfig';
 
 // ...
 
-const result = multiply(3, 7);
+const managedVars = getManagedConfig();
 ```
 
 
