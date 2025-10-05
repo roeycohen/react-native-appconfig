@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-appconfig": ["./src/index"]
+      "react-native-mdm-config": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

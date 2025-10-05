@@ -1,4 +1,4 @@
-# react-native-appconfig
+# react-native-mdm-config
 
 Simplest react-native library for accessing application configurations received from MDM.
 - Android: using RestrictionsManager
@@ -17,7 +17,7 @@ I've created this library because `react-native-emm` was conflicting with other 
 
 
 ```sh
-npm install react-native-appconfig
+npm install react-native-mdm-config
 ```
 
 
@@ -25,7 +25,7 @@ npm install react-native-appconfig
 
 
 ```js
-import { getManagedConfig } from 'react-native-appconfig';
+import { getManagedConfig } from 'react-native-mdm-config';
 
 // ...
 

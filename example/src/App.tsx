@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { getManagedConfig } from 'react-native-appconfig';
+import { getManagedConfig } from 'react-native-mdm-config';
 
 const gc_result = getManagedConfig();
 
