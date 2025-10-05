@@ -1,6 +1,6 @@
 {
   "name": "react-native-appconfig",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "appconfig",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
