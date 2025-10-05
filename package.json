@@ -1,5 +1,5 @@
 {
-  "name": "react-native-appconfig",
+  "name": "react-native-mdm-config",
   "version": "1.0.0",
   "description": "appconfig",
   "main": "./lib/module/index.js",
@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-appconfig-example",
+    "example": "yarn workspace react-native-mdm-config-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roeycohen/react-native-appconfig.git"
+    "url": "git+https://github.com/roeycohen/react-native-mdm-config.git"
   },
   "author": "roey <roeycohen@gmail.com> (https://github.com/roeycohen)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roeycohen/react-native-appconfig/issues"
+    "url": "https://github.com/roeycohen/react-native-mdm-config/issues"
   },
-  "homepage": "https://github.com/roeycohen/react-native-appconfig#readme",
+  "homepage": "https://github.com/roeycohen/react-native-mdm-config#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
